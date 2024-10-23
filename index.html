@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>weather</title>
+</head>
+<body>
+    <!--container-->
+    <div class="weather">
+  <div class="wrapper">
+    <!--input field-->
+    <div class="w-100">
+        <input type="text" id="city" placeholder="Emter city name">
+
+    </div>
+
+  <!--button-->
+  <div class="w-100" style="text-align: center ;">
+    <button id="search">search</button>
+</div>
+  <!--result-->
+  <div class="w-100" id="result">
+    <div>
+      temprature : <span id="temp"></span>
+    </div>
+    <div>
+      Max temprature : <span id="max_temp"></span>
+    </div>
+    <div>
+      Min temprature : <span id="min_temp"></span>
+    </div>
+    <div>
+      Humidity : <span id="humidity"></span>
+    </div>
+  </div>
+</div>
+</div>
+<!--link your js file-->
+  <script src="./index.js"></script>
+</body>
+</html>
